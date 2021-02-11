@@ -1,0 +1,7 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+},
+"files.autoSave": "onWindowChange",
+"files.autoSaveDelay": 2
+}
