@@ -9,13 +9,13 @@ import Cart from "./components/Cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
 
-// zabaaaaaaaaaaa
 function App() {
   return (
     <Fragment>
       <Navbar />
       <Switch>
         {/* มี exact เพราะต้องการให้ path เป๊ะๆ ถ้าไม่ใส่ path="/" คือเอาทุกแบบ ดังนั้นมันจะ route ไปอันอื่นไม่ได้นอกจะย้ายบรรทัดมันไปอยู่ล่างสุด ซึ่งมันค่อนข้าง  brute force */}
+        {/* ในแต่ละ route มีการ pass props ไปให้ด้วย */}
         <Route exact path="/" component={ProductList} />
         <Route path="/details" component={Details} />
         <Route path="/cart" component={Cart} />
