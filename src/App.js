@@ -9,6 +9,7 @@ import Cart from "./components/Cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
 
+// zabaaaaaaaaaaa
 function App() {
   return (
     <Fragment>
